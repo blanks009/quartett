@@ -31,12 +31,12 @@ server.listen(process.env.PORT || 3000, function() {
 // Add the WebSocket handlers
 io.on('connection', function(socket) {
     socket.on('hello', function(data) {
-        console.log(data);      
+        io.sockets.emit('greet', 'Willkommen ' + data + '!' );      
     });
 });
 
-setInterval(function() {
-    io.sockets.emit('message', 'hi!');
-  }, 1000);
+//setInterval(function() {
+ //   io.sockets.emit('message', 'hi!');
+ // }, 1000);
 
 

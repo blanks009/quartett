@@ -1,8 +1,8 @@
 var socket = io();
-socket.on('message', function(data) {
-  console.log(data);
+socket.on('greet', function(data) {
+  alert(data);
 });
 
 function helloServer() {
-    socket.emit('hello', 'Hallo Server');
+    socket.emit('hello', document.getElementById("name").value);
 };
