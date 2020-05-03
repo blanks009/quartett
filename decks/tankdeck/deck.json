@@ -1,0 +1,25 @@
+{
+    "deck": {
+        "deckname": "Tankdeck",
+        "cards": [{
+            "cardname": "tank1",
+            "pic": "/pics/tank1",
+            "Gewicht": {"Wert": 15, "Unit": "Tonnen"},
+            "Kaliber": {"Wert": 120, "Unit": "mm"},
+            "Geschwindigkeit": {"Wert": 55, "Unit": "mph"},
+            "Besatzung": {"Wert": 4, "Unit": "Personen"},
+            "Reichweite": {"Wert": 150, "Unit": "Kilometer"}
+        },
+        {
+            "cardname": "tank2",
+            "pic": "/pics/tank2",
+            "Gewicht": {"Wert": 25, "Unit": "Tonnen"},
+            "Kaliber": {"Wert": 125, "Unit": "mm"},
+            "Geschwindigkeit": {"Wert": 40, "Unit": "mph"},
+            "Besatzung": {"Wert": 3, "Unit": "Personen"},
+            "Reichweite": {"Wert": 200, "Unit": "Kilometer"}
+        }]
+
+
+}
+}
